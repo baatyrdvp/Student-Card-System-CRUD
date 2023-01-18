@@ -1,0 +1,103 @@
+body {
+    background-color: dodgerblue;
+    background-image: url(../img/1659378614_3-pibig-info-p-fon-rabochego-stola-kosmos-krasivo-3.jpg);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    max-width: 400px;
+    height: 500px;
+    margin: 50px 50px;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 65px 0px #9f5aff;
+    opacity: 0.8;
+    border-radius: 20px;
+
+    input {
+        width: 100%;
+        height: 30px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    button {
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+    }
+
+    button:hover {
+        background-color: rgb(5, 181, 5);
+        color: white;
+    }
+
+    .send {
+        width: 200px;
+        background-color: purple;
+        color: white;
+    }
+
+    .come_back {
+        width: 300px;
+        background-color: orange;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-around;
+
+    .resultWindow {
+        width: 500px;
+        height: 550px;
+        background-color: white;
+        border-radius: 20px;
+        opacity: 0.8;
+        padding: 10px 30px;
+        margin-top: 50px;
+        box-shadow: 4px 4px 65px 0px #9f5aff;
+
+        .about {
+            line-height: 25px;
+            margin-bottom: 30px;
+        }
+
+
+        button {
+            width: 150px;
+            height: 30px;
+            margin-right: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(131, 215, 5);
+        }
+
+        .change {
+            background-color: purple;
+            color: white;
+        }
+
+        .delete {
+            background-color: orangered;
+            color: white;
+        }
+    }
+}

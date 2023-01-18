@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  background-color: dodgerblue;
+  height: 120px;
+}
+.header .header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  padding-top: 100px;
+}
+.main h2 {
+  font-size: 35px;
+}
+.main p {
+  padding: 20px 0px;
+  line-height: 20px;
+}
+.main button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.main button a {
+  color: white;
+  text-decoration: none;
+}
+.main button a:visited {
+  color: white;
+}
+.main .benefits {
+  background-color: orange;
+  width: 240px;
+}
+.main button:hover {
+  background-color: rgb(6, 175, 6);
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}

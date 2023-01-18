@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/1659378614_3-pibig-info-p-fon-rabochego-stola-kosmos-krasivo-3.jpg);
+  background-size: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  height: 70px;
+}
+
+.main {
+  padding-top: 40px;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .menu {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 4px 4px 65px 0px #9f5aff;
+
+  }
+
+  .menu:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: all 1s ease;
+
+    a {
+      color: black;
+    }
+  }
+
+  .list-items {
+    list-style: square;
+
+    .list-items-link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .btn-block {
+    margin: 0 auto;
+    text-align: center;
+
+    button {
+      width: 300px;
+      height: 40px;
+      margin: 0 autp;
+      margin-top: 30px;
+      border: none;
+      background-color: purple;
+      font-size: 15px;
+      border-radius: 10px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  button:hover {
+    background-color: rgb(11, 184, 11);
+    color: white;
+  }
+}

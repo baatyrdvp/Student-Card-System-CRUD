@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card System</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/1651689.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="css/card.css">
+</head>
+
+<body>
+    <div class="mainBlock">
+        <div class="card">
+            <div class="top-block">
+                <div class="title">
+                    <h1>Student Card</h1>
+                </div>
+            </div>
+            <div class="medium-block">
+                <form action="GET" method="GET">
+                    <input id="name" type="text" placeholder="name"> <br><br>
+                    <input id="surname" type="text" placeholder="surname"> <br><br>
+                    <input id="age" type="number" placeholder="age"> <br><br>
+                    <input id="about" type="text" placeholder="about"> <br><br>
+                    <input id="photo" type="file" placeholder="img">
+                </form>
+            </div>
+            <br><br>
+            <div class="footer-block">
+                <button class="send">Отправить</button> <br><br>
+                <button class="come_back"><a href="index.html">Вернуться на главную страницу</a></button>
+            </div>
+        </div>
+        <div id="window" class="resultWindow">
+            <div class="title-block">
+                <h1>Student Card</h1>
+            </div>
+            <div class="userPhoto">
+                <img id="examplePhoto" src="img/programmer.png" alt="userPhoto" width="200px" height="200px">
+            </div>
+            <div class="inputBlock">
+                <p id="exampleName">Baatyr</p>
+                <p id="exampleSurname">Beishenaliev</p>
+                <p id="exampleAge">17</p>
+                <p id="exampleAbout" class="about">My name is Baatyr, I am 17 years old, I have been studying programming, namely front-end development, for 3-4 months.</p>
+            </div>
+            <div class="btn-block">
+                <button class="change">Изменить</button>
+                <button class="delete">Удалить</button>
+            </div>
+        </div>  
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
